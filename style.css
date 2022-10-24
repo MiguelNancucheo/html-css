@@ -1,0 +1,206 @@
+/* Estilos */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Header*/
+
+header {
+    padding: 5px 5px;
+    border-bottom: 4px solid black;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 38px;
+}
+.cont_txt_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_logo, .img_head {
+    height: 50px;
+}
+
+.img_logo {
+    transform: rotate(180deg);
+    background-color: #00BBB4;
+    border-radius: 5px;
+}
+
+.cont_linea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_busq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #9e9e9e;
+    background-color: #e1e1e1;
+    height: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+.cont_busq input {
+    outline: none;
+    border: 0;
+    width: 100%;
+    background-color: #e1e1e1;
+    font-size: 18px;
+}
+
+.img_head_busq {
+    height: 22px;
+}
+
+.txt_span {
+    width: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu {
+    padding: 8px;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* especialidades */
+.cont_especia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.espec_col1 {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    background-color: #00BBB4;
+}
+
+.espec_col1_det {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.espec_col1_det p {
+    font-size: 38px;
+    color: white;
+    padding: 20px;
+}
+
+.espec_col2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.img_next, .img_next_pq{
+    display: flex;
+    justify-content: center;
+    background-color: #00BBB4;
+    align-items: center;
+    color: white;
+}
+.img_next_pq {
+    margin-top: 10px;
+    flex: 1;
+}
+.img_next span, .img_next_pq span {
+    font-size: 25px;
+}
+.img_flecha {
+    height: 40px;
+    margin: 5px;
+}
+
+/* tipo de planta*/ 
+
+.cont_plantas {
+    margin-top: 10px;
+    background-color: #AEEAE9;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tipo {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tipo img {
+    height: 150px;
+    border-radius: 50%;
+    padding: 15px 10px;
+}
+.tipo span {
+    padding: 15px;
+}
+
+/* footer  */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.cont_footer {
+    border: 3px solid black ;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    bottom: 0px;
+}
+
+.cont_footer p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.cont_footer img {
+    height: 50px;
+    margin: 10px;
+}
+
+.cont_footer button {
+    background-color: #AEEAE9;
+    margin: 10px;
+    padding: 10px;
+    width: 130px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #575656;
+}
